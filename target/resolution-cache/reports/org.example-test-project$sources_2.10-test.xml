@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.example"
+		module="test-project$sources_2.10"
+		revision="0.0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161013104419"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.9.0">
+			<revision name="1.4.1" status="release" pubdate="20110511202220" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.artima.com/scalatest/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2782" time="0" location="C:\Users\Rebecca.Davey\.ivy2\cache\org.scalatest\scalatest_2.9.0\ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.0/1.4.1/scalatest_2.9.0-1.4.1.pom"/>
+				<caller organisation="org.example" name="test-project$sources_2.10" conf="test, compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_2.9.0" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="550003" time="3370" location="C:\Users\Rebecca.Davey\.ivy2\cache\org.scalatest\scalatest_2.9.0\srcs\scalatest_2.9.0-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalatest/scalatest_2.9.0/1.4.1/scalatest_2.9.0-1.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalatest_2.9.0" type="jar" ext="jar" status="no" details="" size="1989560" time="0" location="C:\Users\Rebecca.Davey\.ivy2\cache\org.scalatest\scalatest_2.9.0\jars\scalatest_2.9.0-1.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.0/1.4.1/scalatest_2.9.0-1.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.3" status="release" pubdate="20130927104454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2616" time="0" location="C:\Users\Rebecca.Davey\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom"/>
+				<caller organisation="org.example" name="test-project$sources_2.10" conf="test, compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="C:\Users\Rebecca.Davey\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1062304" time="0" location="C:\Users\Rebecca.Davey\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.10.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

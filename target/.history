@@ -1,0 +1,12 @@
+compile
+run
+console
+test
+compile
+test
+last test:test
+testOnly GreeterSpec.scala
+test-only org.example.GreeterSpec.scala
+console
+cosnole
+console
