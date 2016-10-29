@@ -1,7 +1,6 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
-[debug] no default cache defined: set to C:\Users\Rebecca.Davey\.ivy2\cache
 [debug] :: resolving dependencies :: org.example#test-project$sbt_2.10;0.0.1-SNAPSHOT
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -136,7 +135,7 @@
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.9->jline#jline;2.11 [compile->default(compile)]
 [info] Resolving jline#jline;2.11 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.11 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\jline\jline\2.11\ivys\ivy.xml
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\jline\jline\2.11\ivys\ivy.xml
 [debug] 	local: no ivy file found for jline#jline;2.11
 [debug] 		tried https://jcenter.bintray.com/jline/jline/2.11/jline-2.11.pom
 [debug] 	jcenter: found md file for jline#jline;2.11
@@ -145,7 +144,7 @@
 [debug] 	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.11/jline-2.11.pom
 [debug] 	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.11/jline-2.11.pom.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/jline/jline/2.11/jline-2.11.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (717ms)
+[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (251ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -760,9 +759,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 4872ms :: artifacts dl 111ms
-[debug] 	report for org.example#test-project$sbt_2.10;0.0.1-SNAPSHOT default produced in H:\sbt-talk\test-project\target\resolution-cache\reports\org.example-test-project$sbt_2.10-default.xml
-[debug] 	resolve done (4872ms resolve - 111ms download)
+[debug] :: resolution report :: resolve 2615ms :: artifacts dl 61ms
+[debug] 	report for org.example#test-project$sbt_2.10;0.0.1-SNAPSHOT default produced in C:\Users\rebecca.davey\Documents\spooky-sbt\sbt-test-project\target\resolution-cache\reports\org.example-test-project$sbt_2.10-default.xml
+[debug] 	resolve done (2615ms resolve - 61ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: org.example#test-project$sources_2.10;0.0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1085,7 +1084,7 @@
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.9 in sbt-chain
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\sbt\0.13.9\srcs\sbt-sources.jar
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\sbt\0.13.9\srcs\sbt-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/sbt/0.13.9/sbt-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/sbt/0.13.9/sbt-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.9/srcs/sbt-sources.jar
@@ -1093,15 +1092,15 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.9/srcs/sbt-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.9/srcs/sbt-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.9/srcs/sbt-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#sbt;0.13.9!sbt.jar(src) (2843ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-lang\scala-library\2.10.5\srcs\scala-library-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#sbt;0.13.9!sbt.jar(src) (2124ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-lang\scala-library\2.10.5\srcs\scala-library-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
 [info] downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar ...
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.jar(src) (4004ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\main\0.13.9\srcs\main-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.jar(src) (662ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\main\0.13.9\srcs\main-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/main/0.13.9/main-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/main/0.13.9/main-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.9/srcs/main-sources.jar
@@ -1109,8 +1108,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.9/srcs/main-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.9/srcs/main-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.9/srcs/main-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#main;0.13.9!main.jar(src) (2687ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\actions\0.13.9\srcs\actions-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#main;0.13.9!main.jar(src) (2332ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\actions\0.13.9\srcs\actions-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/actions/0.13.9/actions-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/actions/0.13.9/actions-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.9/srcs/actions-sources.jar
@@ -1118,8 +1117,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.9/srcs/actions-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.9/srcs/actions-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.9/srcs/actions-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#actions;0.13.9!actions.jar(src) (2684ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\classpath\0.13.9\srcs\classpath-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#actions;0.13.9!actions.jar(src) (2017ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\classpath\0.13.9\srcs\classpath-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/classpath/0.13.9/classpath-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/classpath/0.13.9/classpath-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.9/srcs/classpath-sources.jar
@@ -1127,22 +1126,22 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.9/srcs/classpath-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.9/srcs/classpath-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.9/srcs/classpath-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#classpath;0.13.9!classpath.jar(src) (2511ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-lang\scala-compiler\2.10.5\srcs\scala-compiler-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#classpath;0.13.9!classpath.jar(src) (2044ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-lang\scala-compiler\2.10.5\srcs\scala-compiler-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
 [info] downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar ...
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar(src) (3363ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-lang\scala-reflect\2.10.5\srcs\scala-reflect-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar(src) (1080ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-lang\scala-reflect\2.10.5\srcs\scala-reflect-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
 [info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar ...
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar(src) (1821ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\interface\0.13.9\srcs\interface-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar(src) (397ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\interface\0.13.9\srcs\interface-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/interface/0.13.9/interface-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/interface/0.13.9/interface-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.9/srcs/interface-sources.jar
@@ -1150,8 +1149,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.9/srcs/interface-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.9/srcs/interface-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.9/srcs/interface-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#interface;0.13.9!interface.jar(src) (2744ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\io\0.13.9\srcs\io-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#interface;0.13.9!interface.jar(src) (2082ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\io\0.13.9\srcs\io-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/io/0.13.9/io-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/io/0.13.9/io-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.9/srcs/io-sources.jar
@@ -1159,8 +1158,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.9/srcs/io-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.9/srcs/io-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.9/srcs/io-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#io;0.13.9!io.jar(src) (2521ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\control\0.13.9\srcs\control-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#io;0.13.9!io.jar(src) (2014ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\control\0.13.9\srcs\control-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/control/0.13.9/control-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/control/0.13.9/control-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.9/srcs/control-sources.jar
@@ -1168,9 +1167,9 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.9/srcs/control-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.9/srcs/control-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.9/srcs/control-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#control;0.13.9!control.jar(src) (2270ms)
+[info] 	[SUCCESSFUL ] org.scala-sbt#control;0.13.9!control.jar(src) (2041ms)
 [debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.0-M1!launcher-interface.jar(src)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\completion\0.13.9\srcs\completion-sources.jar
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\completion\0.13.9\srcs\completion-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/completion/0.13.9/completion-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/completion/0.13.9/completion-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.9/srcs/completion-sources.jar
@@ -1178,8 +1177,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.9/srcs/completion-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.9/srcs/completion-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.9/srcs/completion-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#completion;0.13.9!completion.jar(src) (2433ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\collections\0.13.9\srcs\collections-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#completion;0.13.9!completion.jar(src) (2496ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\collections\0.13.9\srcs\collections-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/collections/0.13.9/collections-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/collections/0.13.9/collections-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.9/srcs/collections-sources.jar
@@ -1187,9 +1186,9 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.9/srcs/collections-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.9/srcs/collections-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.9/srcs/collections-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#collections;0.13.9!collections.jar(src) (2487ms)
+[info] 	[SUCCESSFUL ] org.scala-sbt#collections;0.13.9!collections.jar(src) (1950ms)
 [debug] 	[NOT REQUIRED] jline#jline;2.11!jline.jar(src)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\api\0.13.9\srcs\api-sources.jar
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\api\0.13.9\srcs\api-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/api/0.13.9/api-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/api/0.13.9/api-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.9/srcs/api-sources.jar
@@ -1197,8 +1196,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.9/srcs/api-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.9/srcs/api-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.9/srcs/api-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#api;0.13.9!api.jar(src) (2413ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\compiler-integration\0.13.9\srcs\compiler-integration-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#api;0.13.9!api.jar(src) (1950ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\compiler-integration\0.13.9\srcs\compiler-integration-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/compiler-integration/0.13.9/compiler-integration-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/compiler-integration/0.13.9/compiler-integration-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.9/srcs/compiler-integration-sources.jar
@@ -1206,8 +1205,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.9/srcs/compiler-integration-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.9/srcs/compiler-integration-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.9/srcs/compiler-integration-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#compiler-integration;0.13.9!compiler-integration.jar(src) (2434ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\incremental-compiler\0.13.9\srcs\incremental-compiler-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#compiler-integration;0.13.9!compiler-integration.jar(src) (1876ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\incremental-compiler\0.13.9\srcs\incremental-compiler-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/incremental-compiler/0.13.9/incremental-compiler-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/incremental-compiler/0.13.9/incremental-compiler-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.9/srcs/incremental-compiler-sources.jar
@@ -1215,8 +1214,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.9/srcs/incremental-compiler-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.9/srcs/incremental-compiler-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.9/srcs/incremental-compiler-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#incremental-compiler;0.13.9!incremental-compiler.jar(src) (2634ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\logging\0.13.9\srcs\logging-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#incremental-compiler;0.13.9!incremental-compiler.jar(src) (2045ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\logging\0.13.9\srcs\logging-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/logging/0.13.9/logging-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/logging/0.13.9/logging-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.9/srcs/logging-sources.jar
@@ -1224,8 +1223,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.9/srcs/logging-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.9/srcs/logging-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.9/srcs/logging-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#logging;0.13.9!logging.jar(src) (2405ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\process\0.13.9\srcs\process-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#logging;0.13.9!logging.jar(src) (1952ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\process\0.13.9\srcs\process-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/process/0.13.9/process-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/process/0.13.9/process-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.9/srcs/process-sources.jar
@@ -1233,8 +1232,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.9/srcs/process-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.9/srcs/process-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.9/srcs/process-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#process;0.13.9!process.jar(src) (2380ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\relation\0.13.9\srcs\relation-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#process;0.13.9!process.jar(src) (1948ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\relation\0.13.9\srcs\relation-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/relation/0.13.9/relation-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/relation/0.13.9/relation-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.9/srcs/relation-sources.jar
@@ -1242,8 +1241,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.9/srcs/relation-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.9/srcs/relation-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.9/srcs/relation-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#relation;0.13.9!relation.jar(src) (2270ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\compile\0.13.9\srcs\compile-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#relation;0.13.9!relation.jar(src) (1868ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\compile\0.13.9\srcs\compile-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/compile/0.13.9/compile-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/compile/0.13.9/compile-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.9/srcs/compile-sources.jar
@@ -1251,8 +1250,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.9/srcs/compile-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.9/srcs/compile-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.9/srcs/compile-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#compile;0.13.9!compile.jar(src) (2462ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\classfile\0.13.9\srcs\classfile-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#compile;0.13.9!compile.jar(src) (2020ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\classfile\0.13.9\srcs\classfile-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/classfile/0.13.9/classfile-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/classfile/0.13.9/classfile-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.9/srcs/classfile-sources.jar
@@ -1260,8 +1259,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.9/srcs/classfile-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.9/srcs/classfile-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.9/srcs/classfile-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#classfile;0.13.9!classfile.jar(src) (2431ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\persist\0.13.9\srcs\persist-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#classfile;0.13.9!classfile.jar(src) (1977ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\persist\0.13.9\srcs\persist-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/persist/0.13.9/persist-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/persist/0.13.9/persist-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.9/srcs/persist-sources.jar
@@ -1269,9 +1268,9 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.9/srcs/persist-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.9/srcs/persist-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.9/srcs/persist-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#persist;0.13.9!persist.jar(src) (2409ms)
+[info] 	[SUCCESSFUL ] org.scala-sbt#persist;0.13.9!persist.jar(src) (1926ms)
 [debug] 	[NOT REQUIRED] org.scala-tools.sbinary#sbinary_2.10;0.4.2!sbinary_2.10.jar(src)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\compiler-ivy-integration\0.13.9\srcs\compiler-ivy-integration-sources.jar
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\compiler-ivy-integration\0.13.9\srcs\compiler-ivy-integration-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/compiler-ivy-integration/0.13.9/compiler-ivy-integration-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/compiler-ivy-integration/0.13.9/compiler-ivy-integration-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.9/srcs/compiler-ivy-integration-sources.jar
@@ -1279,8 +1278,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.9/srcs/compiler-ivy-integration-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.9/srcs/compiler-ivy-integration-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.9/srcs/compiler-ivy-integration-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#compiler-ivy-integration;0.13.9!compiler-ivy-integration.jar(src) (2293ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\ivy\0.13.9\srcs\ivy-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#compiler-ivy-integration;0.13.9!compiler-ivy-integration.jar(src) (1885ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\ivy\0.13.9\srcs\ivy-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/ivy/0.13.9/ivy-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/ivy/0.13.9/ivy-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.9/srcs/ivy-sources.jar
@@ -1288,8 +1287,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.9/srcs/ivy-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.9/srcs/ivy-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.9/srcs/ivy-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#ivy;0.13.9!ivy.jar(src) (2547ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\cross\0.13.9\srcs\cross-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#ivy;0.13.9!ivy.jar(src) (2031ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\cross\0.13.9\srcs\cross-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/cross/0.13.9/cross-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/cross/0.13.9/cross-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.9/srcs/cross-sources.jar
@@ -1297,38 +1296,24 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.9/srcs/cross-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.9/srcs/cross-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.9/srcs/cross-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#cross;0.13.9!cross.jar(src) (2238ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt.ivy\ivy\2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93\srcs\ivy-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#cross;0.13.9!cross.jar(src) (1842ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt.ivy\ivy\2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93\srcs\ivy-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar
 [info] downloading https://jcenter.bintray.com/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar ...
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93!ivy.jar(src) (3035ms)
+[info] 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93!ivy.jar(src) (558ms)
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar(src)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\serialization_2.10\0.1.1\srcs\serialization_2.10-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-sbt/serialization_2.10/0.1.1/serialization_2.10-0.1.1-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/serialization_2.10/0.1.1/serialization_2.10-0.1.1-sources.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.1/srcs/serialization_2.10-sources.jar
-[info] downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.1/srcs/serialization_2.10-sources.jar ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.1/srcs/serialization_2.10-sources.jar
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.1/srcs/serialization_2.10-sources.jar.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.1/srcs/serialization_2.10-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#serialization_2.10;0.1.1!serialization_2.10.jar(src) (2429ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-lang.modules\scala-pickling_2.10\0.10.0\srcs\scala-pickling_2.10-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-pickling_2.10/0.10.0/scala-pickling_2.10-0.10.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-pickling_2.10/0.10.0/scala-pickling_2.10-0.10.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-pickling_2.10/0.10.0/scala-pickling_2.10-0.10.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-pickling_2.10/0.10.0/scala-pickling_2.10-0.10.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-pickling_2.10/0.10.0/scala-pickling_2.10-0.10.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-pickling_2.10;0.10.0!scala-pickling_2.10.jar(src) (1214ms)
+[debug] 	[NOT REQUIRED] org.scala-sbt#serialization_2.10;0.1.1!serialization_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.10;0.10.0!scala-pickling_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.10;0.6.0!jawn-parser_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#json4s-support_2.10;0.6.0!json4s-support_2.10.jar(src)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\run\0.13.9\srcs\run-sources.jar
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\run\0.13.9\srcs\run-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/run/0.13.9/run-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/run/0.13.9/run-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.9/srcs/run-sources.jar
@@ -1336,8 +1321,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.9/srcs/run-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.9/srcs/run-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.9/srcs/run-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#run;0.13.9!run.jar(src) (2462ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\task-system\0.13.9\srcs\task-system-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#run;0.13.9!run.jar(src) (1889ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\task-system\0.13.9\srcs\task-system-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/task-system/0.13.9/task-system-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/task-system/0.13.9/task-system-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.9/srcs/task-system-sources.jar
@@ -1345,8 +1330,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.9/srcs/task-system-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.9/srcs/task-system-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.9/srcs/task-system-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#task-system;0.13.9!task-system.jar(src) (2417ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\tasks\0.13.9\srcs\tasks-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#task-system;0.13.9!task-system.jar(src) (1807ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\tasks\0.13.9\srcs\tasks-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/tasks/0.13.9/tasks-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/tasks/0.13.9/tasks-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.9/srcs/tasks-sources.jar
@@ -1354,8 +1339,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.9/srcs/tasks-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.9/srcs/tasks-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.9/srcs/tasks-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#tasks;0.13.9!tasks.jar(src) (2710ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\tracking\0.13.9\srcs\tracking-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#tasks;0.13.9!tasks.jar(src) (1858ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\tracking\0.13.9\srcs\tracking-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/tracking/0.13.9/tracking-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/tracking/0.13.9/tracking-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.9/srcs/tracking-sources.jar
@@ -1363,8 +1348,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.9/srcs/tracking-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.9/srcs/tracking-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.9/srcs/tracking-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#tracking;0.13.9!tracking.jar(src) (2313ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\cache\0.13.9\srcs\cache-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#tracking;0.13.9!tracking.jar(src) (1865ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\cache\0.13.9\srcs\cache-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/cache/0.13.9/cache-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/cache/0.13.9/cache-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.9/srcs/cache-sources.jar
@@ -1372,8 +1357,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.9/srcs/cache-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.9/srcs/cache-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.9/srcs/cache-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#cache;0.13.9!cache.jar(src) (2424ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\testing\0.13.9\srcs\testing-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#cache;0.13.9!cache.jar(src) (1781ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\testing\0.13.9\srcs\testing-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/testing/0.13.9/testing-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/testing/0.13.9/testing-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.9/srcs/testing-sources.jar
@@ -1381,8 +1366,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.9/srcs/testing-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.9/srcs/testing-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.9/srcs/testing-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#testing;0.13.9!testing.jar(src) (2387ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\test-agent\0.13.9\srcs\test-agent-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#testing;0.13.9!testing.jar(src) (1874ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\test-agent\0.13.9\srcs\test-agent-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/test-agent/0.13.9/test-agent-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/test-agent/0.13.9/test-agent-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.9/srcs/test-agent-sources.jar
@@ -1390,9 +1375,9 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.9/srcs/test-agent-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.9/srcs/test-agent-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.9/srcs/test-agent-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#test-agent;0.13.9!test-agent.jar(src) (2246ms)
+[info] 	[SUCCESSFUL ] org.scala-sbt#test-agent;0.13.9!test-agent.jar(src) (1870ms)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\main-settings\0.13.9\srcs\main-settings-sources.jar
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\main-settings\0.13.9\srcs\main-settings-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/main-settings/0.13.9/main-settings-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/main-settings/0.13.9/main-settings-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.9/srcs/main-settings-sources.jar
@@ -1400,8 +1385,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.9/srcs/main-settings-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.9/srcs/main-settings-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.9/srcs/main-settings-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#main-settings;0.13.9!main-settings.jar(src) (2410ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\apply-macro\0.13.9\srcs\apply-macro-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#main-settings;0.13.9!main-settings.jar(src) (1936ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\apply-macro\0.13.9\srcs\apply-macro-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/apply-macro/0.13.9/apply-macro-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/apply-macro/0.13.9/apply-macro-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.9/srcs/apply-macro-sources.jar
@@ -1409,8 +1394,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.9/srcs/apply-macro-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.9/srcs/apply-macro-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.9/srcs/apply-macro-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar(src) (2409ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\command\0.13.9\srcs\command-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar(src) (1860ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\command\0.13.9\srcs\command-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/command/0.13.9/command-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/command/0.13.9/command-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.9/srcs/command-sources.jar
@@ -1418,8 +1403,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.9/srcs/command-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.9/srcs/command-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.9/srcs/command-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#command;0.13.9!command.jar(src) (2351ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\logic\0.13.9\srcs\logic-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#command;0.13.9!command.jar(src) (1904ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\logic\0.13.9\srcs\logic-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/logic/0.13.9/logic-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/logic/0.13.9/logic-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.9/srcs/logic-sources.jar
@@ -1427,8 +1412,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.9/srcs/logic-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.9/srcs/logic-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.9/srcs/logic-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#logic;0.13.9!logic.jar(src) (2275ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\compiler-interface\0.13.9\srcs\compiler-interface-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#logic;0.13.9!logic.jar(src) (1829ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\compiler-interface\0.13.9\srcs\compiler-interface-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/compiler-interface/0.13.9/compiler-interface-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/compiler-interface/0.13.9/compiler-interface-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.9/srcs/compiler-interface-sources.jar
@@ -1437,14 +1422,14 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.9/compiler-interface-0.13.9-sources.jar
 [warn] 	[FAILED     ] org.scala-sbt#compiler-interface;0.13.9!compiler-interface.jar(src):  (0ms)
 [warn] ==== local: tried
-[warn]   C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\compiler-interface\0.13.9\srcs\compiler-interface-sources.jar
+[warn]   C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\compiler-interface\0.13.9\srcs\compiler-interface-sources.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/org/scala-sbt/compiler-interface/0.13.9/compiler-interface-0.13.9-sources.jar
 [warn] ==== typesafe-ivy-releases: tried
 [warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.9/srcs/compiler-interface-sources.jar
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.9/compiler-interface-0.13.9-sources.jar
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\precompiled-2_8_2\0.13.9\srcs\precompiled-2_8_2-sources.jar
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\precompiled-2_8_2\0.13.9\srcs\precompiled-2_8_2-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.9/precompiled-2_8_2-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.9/precompiled-2_8_2-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.9/srcs/precompiled-2_8_2-sources.jar
@@ -1452,8 +1437,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.9/srcs/precompiled-2_8_2-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.9/srcs/precompiled-2_8_2-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.9/srcs/precompiled-2_8_2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_8_2;0.13.9!precompiled-2_8_2.jar(src) (2406ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\precompiled-2_9_2\0.13.9\srcs\precompiled-2_9_2-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_8_2;0.13.9!precompiled-2_8_2.jar(src) (1854ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\precompiled-2_9_2\0.13.9\srcs\precompiled-2_9_2-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.9/precompiled-2_9_2-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.9/precompiled-2_9_2-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.9/srcs/precompiled-2_9_2-sources.jar
@@ -1461,8 +1446,8 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.9/srcs/precompiled-2_9_2-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.9/srcs/precompiled-2_9_2-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.9/srcs/precompiled-2_9_2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_9_2;0.13.9!precompiled-2_9_2.jar(src) (2395ms)
-[debug] 		tried C:\Users\Rebecca.Davey\.ivy2\local\org.scala-sbt\precompiled-2_9_3\0.13.9\srcs\precompiled-2_9_3-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_9_2;0.13.9!precompiled-2_9_2.jar(src) (1905ms)
+[debug] 		tried C:\Users\rebecca.davey\.ivy2\local\org.scala-sbt\precompiled-2_9_3\0.13.9\srcs\precompiled-2_9_3-sources.jar
 [debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.9/precompiled-2_9_3-0.13.9-sources.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.9/precompiled-2_9_3-0.13.9-sources.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.9/srcs/precompiled-2_9_3-sources.jar
@@ -1470,13 +1455,13 @@
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.9/srcs/precompiled-2_9_3-sources.jar
 [debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.9/srcs/precompiled-2_9_3-sources.jar.sha1
 [debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.9/srcs/precompiled-2_9_3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_9_3;0.13.9!precompiled-2_9_3.jar(src) (2465ms)
-[debug] :: resolution report :: resolve 616ms :: artifacts dl 130202ms
+[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_9_3;0.13.9!precompiled-2_9_3.jar(src) (1909ms)
+[debug] :: resolution report :: resolve 221ms :: artifacts dl 80972ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	:: org.scala-sbt#compiler-interface;0.13.9!compiler-interface.jar(src)
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[debug] 	report for org.example#test-project$sources_2.10;0.0.1-SNAPSHOT default produced in H:\sbt-talk\test-project\target\resolution-cache\reports\org.example-test-project$sources_2.10-default.xml
-[debug] 	resolve done (616ms resolve - 130202ms download)
+[debug] 	report for org.example#test-project$sources_2.10;0.0.1-SNAPSHOT default produced in C:\Users\rebecca.davey\Documents\spooky-sbt\sbt-test-project\target\resolution-cache\reports\org.example-test-project$sources_2.10-default.xml
+[debug] 	resolve done (221ms resolve - 80972ms download)
