@@ -10,3 +10,48 @@ test-only org.example.GreeterSpec.scala
 console
 cosnole
 console
+compile
+run
+run powder newt 33
+run
+compile
+run
+run liquid blood 14
+~compile
+console
+compile
+run
+compile
+run
+console
+compile
+test
+console
+test
+last test:test
+test
+last test:test
+compile
+test
+last test:test
+test
+last test:test
+test
+last test:test
+clean
+compile
+test
+clean
+compile
+test
+last test:test
+test
+last test:test
+test
+clean
+compile
+test
+testOnly PantrySpec.scala
+testOnly org.example.PantrySpec.scala
+testOnly PantrySpec
+ls

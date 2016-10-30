@@ -6,7 +6,9 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <section data-background="background-pic.png">Introduction to SBT</section>
+                <section data-background="background-pic.png">
+                    <h3>Introduction to SBT</h3>
+                </section>
 
                 <section data-background="background-pic.png">1. Why am I here?</section>
 
@@ -25,41 +27,83 @@
                     </section>
 
                 </section>
-                
+
+                <!-- super quick, just showing where to go and what to do -->
                 <section data-background="background-pic.png">
-                    <section>3. Dependency management</section>
-                    <section>Ivy!</section>
+
+                    <p>3. Downloading SBT</p>
+
+                    <a href="http://www.scala-sbt.org/download.html" class="fragment">http://www.scala-sbt.org/download.html</a>
+
+                </section>
+                
+                <!-- add scalatest dependency! -->
+                <section data-background="background-pic.png">
+                    <section>4. Dependency management</section>
+
+                    <section>Managed vs unmanaged dependencies</section>
+
+                    <section>
+                        <p>Three ways to get dependencies into your project...</p>
+
+                        <ul>
+                            <li>Unmanaged: put the JARs into the lib thing</li>
+                            <li>Managed: define them in the build.sbt file</li>
+                            <li>Managed: define them somewhere else and reference from build.sbt</li>
+                        </ul>
+
+                    </section>
                 </section>
 
+                <!-- building a project from scratch, plan this -->
                 <section data-background="background-pic.png">
-                    <section>4. Building a project</section>
+                    <section>5. Building a project</section>
                     <section>The build.sbt file</section>
-                    <section>The scala compiler</section>
+                    <section>Compiling your code</section>
                     <section>Running your program</section>
                 </section>
 
+                <!-- go back to not-IntelliJ. write a test -->
                 <section data-background="background-pic.png">
-                    <section>5. Tests, tasks and the console</section>
+                    <section>6. Tests and the SBT console</section>
                     <section>Testing using SBT</section>
-                    <section>Tasks and settings</section>
                     <section>The glorious SBT console/REPL</section>
                 </section>
 
+                <!-- talk about plugins, and show how to make new project and import existing into intelliJ-->
                 <section data-background="background-pic.png">
-                    <div>6. Questions</div>
+                    <section>7. Working with an IDE</section> 
+                    <section>
+                        <p>Plugins</p>
+
+                        <a href="http://www.scala-sbt.org/0.13/docs/Community-Plugins.html" style="margin-top:100px">http://www.scala-sbt.org/0.13/docs/Community-Plugins.html</a>
+                    </section>
+
+                    <section>IntelliJ in depth...</section>
+
+                    <section>Creating an SBT project from scratch in IntelliJ</section>
+
+                    <section>
+                        <p>Importing an existing SBT project into IntelliJ</p>
+
+                        <ul>
+                            <li>Using IntelliJ SBT plugin, just point it at the build.sbt file to import, or...</li>
+                            <li>Use an SBT plugin (via terminal) to generate IDEA files and then open in intelliJ</li>
+                        </ul>
+                    </section>
+
+                </section>
+
+                <section data-background="background-pic.png">
+                    <div>8. Questions</div>
 
                     <div style="margin-top:100px">
                         <p>rebecca.davey@inrix.com - @suprahoopla</p>
                         <p>github.com/INRIX-rebecca-davey/sbt-test-project</p>
                     </div>
-                </section>
 
-                <section>
-                    <div>Resources</div>
-
-                    <div style="margin-top:100px">
-                        <p>the sbt docs</p>
-                        <p>some more resources</p>
+                    <div style="margin-top:60px">
+                        <p>SBT docs are fab: http://www.scala-sbt.org</p>
                     </div>
                 </section>
             </div>
