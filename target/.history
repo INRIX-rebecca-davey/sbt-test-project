@@ -1,0 +1,9 @@
+compile
+run
+run powder fleas 33
+test
+reload
+testOnly PantrySpec
+clean
+compile
+test
